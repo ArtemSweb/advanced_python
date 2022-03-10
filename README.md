@@ -5,3 +5,10 @@
 
 Ссылка на курс: https://stepik.org/course/68343/syllabus
 
+2. Повторяем основные конструкции языка Python
+- Часть 1
+- Часть 2
+
+3. Типы данных bool и NoneType
+- Типы данных bool
+- Типы данных NoneType
