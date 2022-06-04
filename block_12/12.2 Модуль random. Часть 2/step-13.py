@@ -14,10 +14,7 @@ def generate_password(length):
     return ps
 
 def generate_passwords(count, length):
-    arr = []
-    for _ in range(count):
-        arr.append(generate_password(length))
-    return arr
+    return [generate_password(length) for _ in range(count)]
 
 n, m = int(input()), int(input())
 
