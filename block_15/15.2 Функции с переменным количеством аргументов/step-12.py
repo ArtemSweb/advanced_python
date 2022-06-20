@@ -1,7 +1,8 @@
 
 
 def mean(*args):
-    return sum(args)/len(args)
+    lst = [elem for elem in args if type(elem)== int or type(elem) == float]
+    return float(sum(lst)/len(lst)) if len(lst)>0 else float(0)
     
 
 print(mean())
