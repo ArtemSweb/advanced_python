@@ -1,7 +1,0 @@
-{
-	"python.testing.pytestArgs": [
-		"block_4"
-	],
-	"python.testing.unittestEnabled": false,
-	"python.testing.pytestEnabled": true
-}
